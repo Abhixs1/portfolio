@@ -106,6 +106,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Associate Software Engineer",
+    company_name: "Wissen Technology",
+    icon: backend,
+    iconBg: "#1F2937",
+    date: "Dec 2025 – Present",
+    points: [
+      "Developed a Java Spring Boot backend for the WIDS Pipeline Dashboard, implementing REST APIs for pipeline management, threshold configuration, and DE workflow approval system; deployed on AWS EKS with automated CI/CD pipelines using GitHub Actions and Amazon ECR.",
+      "Secured the application using Keycloak OAuth2/JWT with role-based access control, implemented Airflow DAG validation to prevent invalid pipeline configurations, and ensured data consistency by syncing pipeline IDs across multiple PostgreSQL tables.",
+      "Built a DE Workflow Approval System with real-time actual metrics tracking from Airflow-written data, integrated OpenMetadata SSO with Keycloak via custom-OIDC for seamless single sign-on.",
+      "Configured Grafana embedding for a unified single-login experience across all platforms, enabling comprehensive monitoring and analytics.",
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "Oracle",
     icon: oracle,

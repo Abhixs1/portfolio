@@ -28,7 +28,6 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 import java from "./java.svg";
 import kafka from "./kafka.svg";
@@ -66,7 +65,6 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
   java,
   kafka,
   springboot,

@@ -67,8 +67,17 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            className='w-[28px] h-[28px] object-contain cursor-pointer'
             onClick={() => setToggle(!toggle)}
+            role='button'
+            tabIndex={0}
+            aria-expanded={toggle}
+            aria-label={toggle ? "Close menu" : "Open menu"}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                setToggle(!toggle);
+              }
+            }}
           />
 
           <div
